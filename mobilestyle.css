@@ -1,0 +1,447 @@
+/* Mobile Top Section */
+.top {
+    width: 390px;
+    height: auto;
+    padding: 8px 20px;
+    gap: 120px;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Logo styling for mobile */
+.top .logo img {
+    width: 30px;
+    height: 30px;
+    gap: 6px;
+    opacity: 1;
+}
+
+/* Navigation menu styling */
+.mobile-nav ul {
+    display: flex;
+    width: 110px; /* Set to fill the width */
+    height: auto;
+    gap: 25px; /* Gap between each menu item */
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* Common styling for all nav links */
+.mobile-nav ul li a {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 18.77px;
+    text-align: left;
+    color: #333333;
+    text-decoration: none; /* Removes underline */
+}
+
+/* Individual width settings for each nav item */
+.nav-home {
+    width: 46px;
+}
+
+.nav-about-me {
+    width: 76px;
+}
+
+.nav-services {
+    width: 67px;
+}
+
+.hero {
+    width: 390px; /* Full width for mobile */
+    height: auto; /* Adjusts based on content */
+    padding: 30px 10px; /* Padding for top/bottom and left/right */
+    gap: 15px; /* Space between elements */
+    background-color: #FFFFFF; /* Background color */
+    display: flex;
+    flex-direction: column; /* Stack elements vertically */
+    align-items: center; /* Center align content horizontally */
+    opacity: 1; /* Fully visible */
+}
+
+.hero-image img {
+    width: 350px; /* Fixed width */
+    height: 354.43px; /* Fixed height */
+    border-radius: 300px; 
+    border: 1px solid #F2F2F2; /* Light gray border */
+    opacity: 1; /* Fully visible */
+    object-fit: cover; /* Ensures the image fills the given dimensions */
+}
+
+.hero-text {
+    width: 390px; /* Full width for mobile */
+    height: auto;
+    padding: 0px 10px; /* Horizontal padding */
+    gap: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+/* Text block within hero */
+.hero-text h1 {
+    width: 370px;
+    height: 200px;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 50px; /* Larger font size for emphasis */
+    font-weight: 700;
+    line-height: 50px; /* Matches the font size for compact look */
+    text-align: center;
+    color: #333333;
+    margin: 0;
+    opacity: 1;
+}
+
+/* Emphasized span within heading */
+.hero-text h1 span {
+    color: #0077FF;
+}
+
+/* Hero paragraph styling */
+.hero-text p {
+    width: 370px;
+    height: 60px;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 20px; /* Smaller font size for supporting text */
+    font-weight: 400;
+    line-height: 20px;
+    text-align: center;
+    color: #333333;
+    margin: 15px 0;
+    opacity: 1;
+}
+
+/* Button styling */
+.hero-text .btn {
+    width: 370px;
+    height: 50px;
+    padding: 17px 33px;
+    border-radius: 50px;
+    background-color: #0077FF;
+    color: #FFFFFF;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 23.46px;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+}
+
+.achievement {
+    width: 390px; /* Fixed width for mobile */
+    height: auto; /* Adjusts based on content */
+    padding: 30px 10px; /* Padding for top/bottom and left/right */
+    gap: 30px; /* Space between elements within the section */
+    background-color: #0077FF; /* Background color for section */
+    opacity: 1; /* Fully visible */
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center align content horizontally */
+}
+
+.achievement-title {
+    width: 370px; /* Hug width */
+    height: auto; /* Adjusts to content */
+    gap: 15px; /* Space between title texts */
+    display: flex;
+    flex-direction: column; /* Stack texts vertically */
+    align-items: center;
+    text-align: center;
+    opacity: 1;
+}
+
+/* Text 1 Styling */
+.achievement-title .title-text-1 {
+    width: 370px;
+    height: 18px;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 18px;
+    letter-spacing: 0.1em;
+    text-align: center;
+    color: #E9EFFF; /* Text color */
+    margin: 0;
+    opacity: 1;
+}
+
+/* Text 2 Styling */
+.achievement-title .title-text-2 {
+    width: 370px;
+    height: 120px;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 40px;
+    text-align: center;
+    color: #FFFFFF; /* Text color */
+    background: #0077FF; /* Set background color */
+    margin: 0;
+    opacity: 1;
+}
+
+.achievement-frame {
+    width: 370px; /* Fixed width */
+    height: auto; /* Flexible height */
+    padding: 30px 0; /* Top and bottom padding */
+    gap: 30px; /* Space between cards */
+    display: flex;
+    flex-direction: column; /* Stack cards vertically */
+    align-items: center; /* Center align cards */
+    opacity: 1; /* Fully visible */
+}
+
+/* Individual Card Styling */
+.achievement-frame .card {
+    width: 297px; /* Fixed width */
+    height: auto; /* Flexible height */
+    padding: 30px; /* Top padding only */
+    gap: 15px; /* Space within the card */
+    background-color: #FFFFFF; /* White background */
+    border-radius: 15px; /* Rounded top-left corner */
+    text-align: center;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Optional shadow for depth */
+    opacity: 1; /* Fully visible */
+}
+
+.achievement-frame .card h3 {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 50px; /* Larger font size */
+    font-weight: 700; /* Bold weight */
+    line-height: 50px; /* Matches font size */
+    text-align: center;
+    color: #333333; /* Dark text color */
+    margin: 0;
+    background-color: #FFFFFF; /* Background color */
+    opacity: 1;
+}
+
+/* Card Text (p) Styling */
+.achievement-frame .card p {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 20px; /* Smaller font size */
+    font-weight: 600; /* Semi-bold weight */
+    line-height: 23.46px;
+    text-align: center;
+    color: #333333; /* Dark text color */
+    margin: 15px; /* Top margin for spacing */
+    background-color: #FFFFFF; /* Background color */
+    opacity: 1;
+}
+
+.testimonials {
+    width: 390px; /* Fixed width for mobile */
+    height: auto; /* Flexible height based on content */
+    padding: 30px 20px; /* Padding for top/bottom and left/right */
+    gap: 30px; /* Space between items inside the section */
+    background-color: #FFFFFF; /* Background color */
+    opacity: 1; /* Fully visible */
+    display: flex;
+    flex-direction: column; /* Stack elements vertically */
+    align-items: center; /* Center align content */
+}
+
+.testimonials-title {
+    width: 370px; /* Fixed width */
+    height: auto; /* Flexible height based on content */
+    gap: 15px; /* Space between texts */
+    display: flex;
+    flex-direction: column; /* Stack texts vertically */
+    align-items: center; /* Center align text */
+    text-align: center;
+    opacity: 1; /* Fully visible */
+}
+
+/* "Testimonials" Text Styling */
+.testimonials-title .title-text-1 {
+    width: 154px;
+    height: 18px;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 18px;
+    letter-spacing: 0.1em;
+    color: #0078FF; /* Text color */
+    background-color: #FFFFFF; /* Background color */
+    margin: 0;
+    opacity: 1;
+}
+
+/* "The Trust From Clients" Text Styling */
+.testimonials-title .title-text-2 {
+    width: 370px;
+    height: 80px;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 40px;
+    text-align: center;
+    color: #222222; /* Dark text color */
+    background-color: #FFFFFF; /* Background color */
+    margin: 0;
+    opacity: 1;
+}
+
+.testimonials-frame {
+    width: 350px; /* Full width */
+    height: auto; /* Flexible height */
+    gap: 30px; /* Space between client boxes */
+    display: flex;
+    flex-direction: column; /* Stack client boxes vertically */
+    align-items: center;
+    opacity: 1; /* Fully visible */
+}
+
+/* Client Box Styling */
+.testimonials-frame .client-box {
+    width: 350px; /* Full width */
+    height: auto; /* Flexible height */
+    padding: 30px 20px; /* Padding on all sides */
+    gap: 20px; /* Space within the box */
+    background-color: #FFFFFF; /* White background */
+    border-radius: 15px; /* Rounded corners */
+    border: 1px solid #DDDDDD; /* Light gray border */
+    opacity: 1; /* Fully visible */
+    display: flex;
+    flex-direction: column; /* Stack content inside box vertically */
+    align-items: center;
+    text-align: center;
+}
+
+/* Client Photo (Ellipse) */
+.client-box .client-photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%; /* Circular shape */
+    overflow: hidden; /* Ensures image fits within the circle */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px; /* Space below the photo */
+    opacity: 1;
+}
+
+.client-photo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Fills the ellipse */
+}
+
+/* Stars Image Styling */
+.client-box .client-stars {
+    width: auto; /* Width adjusts to content */
+    height: auto; /* Height adjusts to content */
+    padding: 4px 3px; /* Padding around the stars image */
+    margin-bottom: 15px; /* Space below stars */
+    opacity: 1;
+}
+
+.client-stars img {
+    width: 156px; /* Hug width */
+    height: 32.9px; /* Hug height */
+    object-fit: contain; /* Maintain aspect ratio */
+}
+
+/* Text Section 1 Styling */
+.client-box .text-section-1 {
+    width: 310px; /* Fixed width */
+    height: auto; /* Flexible height */
+    padding-right: 63px; /* Padding on the right */
+    margin-bottom: 15px; /* Space below text */
+    opacity: 1;
+    text-align: center;
+}
+
+/* Text Section 2 Styling */
+.client-box .text-section-2 {
+    width: auto; /* Adjusts to content */
+    height: auto; /* Flexible height */
+    gap: 5px; /* Space between name and position */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    opacity: 1;
+}
+
+/* Testimonial Text (Client's Feedback) */
+.client-box .text-section-1 p {
+    width: 247px; /* Fixed width */
+    height: 120px; /* Fixed height */
+    font-family: 'Work Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+    color: #000000; /* Black text color */
+    margin: 0;
+    opacity: 1;
+}
+
+/* Client Name */
+.client-box .text-section-2 h4 {
+    width: 158px; /* Fixed width */
+    height: 19px; /* Fixed height */
+    font-family: 'Work Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 600; /* Bold font weight */
+    line-height: 18.77px;
+    text-align: center;
+    color: #000000; /* Black text color */
+    margin: 0;
+    opacity: 1;
+}
+
+/* Client Position */
+.client-box .text-section-2 p {
+    width: 142px; /* Fixed width */
+    height: 19px; /* Fixed height */
+    font-family: 'Work Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400; /* Regular font weight */
+    line-height: 18.77px;
+    text-align: center;
+    color: #666666; /* Gray text color */
+    margin: 0;
+    opacity: 1;
+}
+
+.footer {
+    width: 390px; /* Fixed width */
+    height: auto; /* Flexible height */
+    padding: 30px 10px; /* Padding for top/bottom and left/right */
+    gap: 30px; /* Space between items inside the footer */
+    background-color: #0077FF; /* Background color */
+    opacity: 1; /* Fully visible */
+    display: flex;
+    flex-direction: column; /* Stack elements vertically */
+    align-items: center; /* Center align content */
+    text-align: center;
+}
+
+.footer-logo img {
+    width: 175px; /* Hug width */
+    height: 50px; /* Hug height */
+    margin-bottom: 6px; /* Space below the logo */
+    opacity: 1; /* Fully visible */
+}
+
+/* Footer Text Styling */
+.footer-text {
+    width: 370px; /* Fixed width */
+    font-family: 'Work Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 15px;
+    text-align: center;
+    color: #FFFFFF; /* White text color */
+    margin: 0;
+    opacity: 1; /* Fully visible */
+}

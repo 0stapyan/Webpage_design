@@ -1,0 +1,442 @@
+/* Full header layout */
+header {
+    width: 1440px; /* Fixed width */
+    height: 80px; /* Fixed height */
+    left: 0px; /* Align to the left */
+    padding: 15px 81px; /* Padding for top/bottom and left/right */
+    display: flex;
+    justify-content: space-between; /* Space between logo and navigation */
+    opacity: 1; /* Fully visible */
+    background-color: #fff; /* Assuming a white background */
+}
+
+
+/* Logo styling */
+header .logo img {
+    width: 175px; /* Adjust width */
+    height: 50px; /* Adjust height */
+    gap: 6px; /* Space between elements (if needed) */
+    opacity: 1; /* Fully visible */
+}
+
+
+
+/* Navigation menu */
+nav ul {
+    width: 763px; /* Set the total width of the menu */
+    height: 21px; /* Height of the menu items */
+    display: flex;
+    justify-content: flex-end; /* Aligns the menu items to the right */
+    gap: 40px; /* Space between the menu items */
+    list-style: none; /* Removes default bullet points */
+}
+
+/* Remove underline from all navigation links */
+nav ul li a {
+    text-decoration: none; /* This removes the underline */
+    /* Other styling properties */
+    width: 75px;
+    height: 21px;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 21.11px;
+    text-align: left;
+    color: #333333;
+    opacity: 1;
+}
+
+nav ul li a:hover {
+    background-color: #333333;
+    color: #fff;
+    padding: 5px;
+}
+
+/* Home link styling */
+nav ul li a.home {
+    width: 52px; /* Specific width for the 'Home' item */
+    height: 21px; /* Height for the item */
+    font-family: 'Work Sans', sans-serif; /* Font family */
+    font-size: 18px; /* Font size */
+    font-weight: 600; /* Font weight */
+    line-height: 21.11px; /* Line height */
+    text-align: left; /* Align text to the left */
+    color: #333333; /* Text color */
+    opacity: 1; /* Make the text fully visible */
+}
+
+nav ul li a.home:hover {
+    background-color: #333333; /* Background color for hover */
+    color: #fff; /* Change text color on hover */
+    padding: 5px; /* Add some padding to make hover area bigger */
+}
+
+/* About Me link styling */
+nav ul li a.about-me {
+    width: 85px; /* Specific width for 'About Me' */
+    height: 21px; /* Height */
+    font-family: 'Work Sans', sans-serif; /* Font family */
+    font-size: 18px; /* Font size */
+    font-weight: 600; /* Font weight */
+    line-height: 21.11px; /* Line height */
+    text-align: left; /* Align text to the left */
+    color: #333333; /* Text color */
+    opacity: 1; /* Make the text fully visible */
+}
+
+nav ul li a.about-me:hover {
+    background-color: #333333; /* Background color on hover */
+    color: #fff; /* Change text color on hover */
+    padding: 5px; /* Padding for better hover interaction */
+}
+
+/* Services link styling */
+nav ul li a.services {
+    width: 75px; /* Specific width for 'Services' */
+    height: 21px; /* Height */
+    font-family: 'Work Sans', sans-serif; /* Font family */
+    font-size: 18px; /* Font size */
+    font-weight: 600; /* Font weight */
+    line-height: 21.11px; /* Line height */
+    text-align: left; /* Align text to the left */
+    color: #333333; /* Text color */
+    opacity: 1; /* Make the text fully visible */
+}
+
+nav ul li a.services:hover {
+    background-color: #333333; /* Background color on hover */
+    color: #fff; /* Change text color on hover */
+    padding: 5px; /* Padding for better hover interaction */
+}
+
+/* Intro section*/
+.intro {
+    width: 1440px; /* Full width */
+    height: 727px; /* Fixed height */
+    padding: 100px 81px; /* Padding for top/bottom and left/right */
+    display: flex;
+    justify-content: space-between; /* Space between text and image */
+    align-items: center; /* Vertically align content */
+    gap: 100px; /* Space between the text and image */
+    opacity: 1; /* Fully visible */
+    background-color: #fff; /* Assuming a white background */
+}
+
+/* Title part (text and button) in the intro section */
+.intro-text {
+    width: 624px; /* Fixed width */
+    height: 405px; /* Adjust height */
+    display: flex;
+    flex-direction: column; /* Stack elements vertically */
+    justify-content: center; /* Center the elements vertically */
+    gap: 50px; /* Space between title and other elements */
+    opacity: 1; /* Fully visible */
+}
+
+
+/* Styling for the main heading */
+.intro-text h1 {
+    width: 544.39px; /* Fixed width */
+    height: 225px; /* Fixed height */
+    margin: 0; /* Remove default margin */
+    font-family: 'Work Sans', sans-serif; /* Font family */
+    font-size: 60px; /* Font size */
+    font-weight: 700; /* Font weight */
+    line-height: 75px; /* Line height */
+    text-align: left; /* Left align text */
+    color: #222222;; /* Adjust color as needed */
+    opacity: 1; /* Fully visible */
+}
+
+/* Styling for the span ("Robert Junior") */
+.intro-text h1 span {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 70px; /* Larger font size for emphasis */
+    font-weight: 700; /* Bold font weight */
+    line-height: 75px; /* Line height */
+    text-align: left; /* Left align text */
+    color: #0077FF; /* Adjust color as needed */
+}
+
+/* Styling for the paragraph */
+.intro-text p {
+    width: 544.39px; /* Fixed width */
+    height: 70px; /* Fixed height */
+    font-family: 'Work Sans', sans-serif; /* Font family */
+    font-size: 25px; /* Font size */
+    font-weight: 400; /* Font weight */
+    line-height: 35px; /* Line height */
+    text-align: left; /* Left align text */
+    color: #222222; /* Text color */
+    opacity: 1; /* Fully visible */
+    margin: 0; /* Reset default margin */
+}
+
+/* Styling for the "Hire Me!" button */
+.intro-text .btn {
+    width: 161.3px; /* Fixed width */
+    height: 50px; /* Fixed height */
+    padding: 17px 33px; /* Padding for top/bottom and left/right */
+    border-radius: 25px 25px 25px 25px; /* Reduced top-left radius for a smoother curve */
+    border: none; /* Add a solid border */
+    background-color: #0077FF; /* Button background color */
+    color: #fff; /* Text color */
+    font-family: 'Work Sans', sans-serif;
+    font-size: 20px; /* Update font size */
+    font-weight: 600; /* Update font weight */
+    line-height: 23.46px; /* Set line height */
+    text-align: center; /* Center text */
+    cursor: pointer;
+    opacity: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Center text vertically */
+}
+
+.intro-text .btn:hover {
+    background-color: #005bb5; /* Darken button on hover */
+}
+
+/* Hero image styling */
+.intro-image img {
+    width: 553px; /* Fixed width */
+    height: 560px; /* Fixed height */
+    border-radius: 300px 300px 300px 300px; /* Border radius to curve the top-left corner */
+    border: 1px solid #F2F2F2; /* Border with light gray color */
+    opacity: 1; /* Fully visible */
+}
+
+.milestones {
+    width: 1440px;
+    height: 678px;
+    padding: 100px 0;
+    gap: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #0077FF;
+    opacity: 1;
+}
+
+/* Title Section */
+.milestones-title {
+    width: 684px;
+    height: 147px;
+    text-align: center;
+    gap: 0;
+    opacity: 1;
+}
+
+.milestones-title h2 {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 50px;
+    text-align: center;
+    color: #E9EFFF; /* Adjust color as needed */
+    margin: 0;
+}
+
+/* Subtitle */
+.milestones-title p {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23.46px;
+    text-align: center;
+    color: #FFFFFF; /* Adjust color as needed */
+    margin: 0;
+}
+
+/* Cards Frame */
+.milestones-cards {
+    width: 1440px;
+    padding: 50px 0;
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    opacity: 1;
+}
+
+/* Individual Cards */
+.milestones-cards .card {
+    width: 297px;
+    padding: 30px 0 0;
+    background: #FFFFFF;
+    border-radius: 15px 15px 15px 15px;
+    text-align: center;
+    opacity: 1;
+}
+
+/* Card Titles */
+.milestones-cards .card h3 {
+    font-size: 50px;
+    color: #333333;
+
+}
+
+/* Card Text */
+.milestones-cards .card p {
+    font-size: 20px;
+    color: #333;
+    opacity: 0.8;
+}
+
+.testimonials {
+    width: 1440px;
+    padding: 100px 81px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    background-color: #F9F9F9; /* Adjust as per design */
+    opacity: 1; /* Set to visible */
+}
+
+/* Title Section */
+.testimonials-title {
+    width: 684px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    opacity: 1; /* Set to visible */
+    text-align: center;
+}
+
+/* Frame Section */
+.testimonials-frame {
+    width: 951px;
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    opacity: 1; /* Set to visible */
+}
+
+/* Styling for "Testimonials" text */
+.testimonials-title h2 {
+    width: 171px; /* Fixed width */
+    height: 23px; /* Fixed height */
+    font-family: 'Work Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23.46px;
+    letter-spacing: 0.1em;
+    text-align: center;
+    color: #0078FF; /* Text color */
+    margin: 0;
+}
+
+/* Styling for "The Trust From Clients" text */
+.testimonials-title p {
+    width: 684px; /* Fixed width */
+    height: 50px; /* Fixed height */
+    font-family: 'Work Sans', sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 50px;
+    text-align: center;
+    color: #222222; /* Text color */
+    margin: 0;
+}
+
+/* Styling for each testimonial card */
+.testimonials-frame .testimonial-card {
+    width: 297px; /* Fixed width */
+    height: 413px; /* Flexible height */
+    padding: 30px 20px; /* Padding on all sides */
+    gap: 20px;
+    background: #FFFFFF; /* Background color */
+    border-radius: 15px 15px 15px 15px; /* Rounded top-left corner */
+    border: 1px solid #DDDDDD; /* Light gray border */
+    opacity: 1; /* Fully visible */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.testimonial-card img {
+    width: 150px; /* Fixed width */
+    height: 150px; /* Fixed height */
+    border-radius: 50%; /* Make the image a circle */
+    object-fit: cover; /* Ensure image fits within the ellipse */
+    margin-bottom: 20px; /* Add space below the image */
+    opacity: 1; /* Fully visible */
+}
+
+.testimonial-card .text-section-1 p {
+    font-family: 'Work Sans', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+    color: #333333; /* Adjust color if specified */
+    margin: 0;
+}
+
+/* Text Section 2 styling (Name) */
+.testimonial-card .text-section-2 h4 {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 18.77px;
+    text-align: center;
+    color: #222222; /* Adjust color if specified */
+    margin: 0;
+}
+
+/* Text Section 2 styling (Position) */
+.testimonial-card .text-section-2 p {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18.77px;
+    text-align: center;
+    color: #555555; /* Adjust color if specified */
+    margin: 0;
+}
+
+footer {
+    width: 1440px; /* Full width */
+    height: 152px; /* Adjustable height */
+    padding: 50px 81px; /* Padding for top/bottom and left/right */
+    display: flex;
+    flex-direction: column; /* Stack elements vertically */
+    align-items: center; /* Center align content horizontally */
+    gap: 30px; /* Space between elements */
+    background-color: #0077FF; /* Background color */
+    opacity: 1; /* Fully visible */
+    text-align: center; /* Center text within footer */
+}
+
+.footer-logo img {
+    width: auto; /* Keep image’s intrinsic width */
+    height: auto; /* Keep image’s intrinsic height */
+    max-height: 50px; /* Set a max height if needed */
+}
+
+/* Footer text styling */
+footer p {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #FFFFFF; /* Text color */
+    margin: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
